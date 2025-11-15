@@ -1,0 +1,13 @@
+provider_clean,cpt_category,claims,mean_charge
+acme health,CMP,35,193.34971428571427
+acme health,E/M,91,196.13571428571427
+acme health,EKG,41,205.2051219512195
+acme health,Lab,35,193.90028571428573
+north care,CMP,34,190.5085294117647
+north care,E/M,75,208.0472
+north care,EKG,16,205.070625
+north care,Lab,30,179.46533333333335
+river valley medical,CMP,30,209.69966666666667
+river valley medical,E/M,60,208.194
+river valley medical,EKG,23,213.96695652173912
+river valley medical,Lab,30,197.52100000000002

@@ -1,0 +1,501 @@
+claim_id,provider_raw,cpt_code,service_line,charge
+1,Acme Health,99215,Lab,220.99
+2,North Care,80053,Clinic,63.66
+3,North Care,99215,Lab,190.54
+4,River Valley Med,99213,Clinic,184.77
+5,acme health,80053,Lab,268.77
+6,ACME Health  ,99213,Lab,297.51
+7,River Valley Med,36415,Clinic,183.53
+8,River Valley Med,99213,Cardiology,200.27
+9,NorthCare,99215,Cardiology,159.88
+10,North Care,99215,Clinic,268.63
+11,NorthCare,93000,Clinic,179.89
+12,acme health,99213,Clinic,157.91
+13,Acme Health,99215,Lab,203.9
+14,acme health,36415,Clinic,222.89
+15,River Valley Med,93000,Clinic,275.04
+16,River Valley Med,36415,Lab,283.76
+17,ACME Health  ,80053,Cardiology,199.77
+18,Acme Health,99213,Clinic,222.17
+19,River Valley Med,99213,Clinic,223.44
+20,acme health,99213,Cardiology,199.31
+21,Acme Health,36415,Lab,174.35
+22,NorthCare,80053,Clinic,188.14
+23,River Valley Med,93000,Lab,243.26
+24,ACME Health  ,36415,Clinic,240.65
+25,River Valley Med,36415,Cardiology,208.44
+26,Acme Health,80053,Lab,222.71
+27,Acme Health,99215,Clinic,177.33
+28,River V. Medical,99214,Lab,318.46
+29,River V. Medical,99215,Lab,190.63
+30,River Valley Med,99214,Cardiology,225.49
+31,River Valley Med,93000,Clinic,155.77
+32,River Valley Med,36415,Cardiology,323.62
+33,NorthCare,99215,Clinic,68.49
+34,River V. Medical,99215,Lab,211.86
+35,North Care,80053,Clinic,266.04
+36,NorthCare,99214,Clinic,167.79
+37,River V. Medical,80053,Cardiology,136.68
+38,NorthCare,80053,Lab,177.42
+39,acme health,80053,Clinic,170.49
+40,ACME Health  ,99213,Lab,191.08
+41,River Valley Med,80053,Lab,161.06
+42,acme health,99214,Clinic,226.72
+43,River Valley Med,99214,Lab,175.88
+44,ACME Health  ,93000,Clinic,222.32
+45,North Care,99215,Cardiology,259.89
+46,North Care,36415,Clinic,130.48
+47,River V. Medical,36415,Clinic,123.43
+48,Acme Health,99215,Lab,137.62
+49,Acme Health,93000,Lab,232.36
+50,ACME Health  ,99214,Clinic,188.12
+51,River V. Medical,93000,Cardiology,300.3
+52,acme health,80053,Clinic,210.66
+53,North Care,80053,Clinic,241.21
+54,River Valley Med,99214,Clinic,173.32
+55,River Valley Med,99214,Clinic,246.86
+56,NorthCare,99215,Clinic,203.83
+57,River Valley Med,93000,Clinic,154.43
+58,ACME Health  ,36415,Lab,184.04
+59,North Care,36415,Lab,206.81
+60,NorthCare,36415,Cardiology,176.91
+61,Acme Health,36415,Clinic,147.08
+62,North Care,99215,Clinic,248.76
+63,North Care,99213,Lab,205.64
+64,NorthCare,36415,Cardiology,122.91
+65,North Care,99213,Clinic,233.81
+66,North Care,99214,Clinic,208.06
+67,River V. Medical,36415,Lab,193.46
+68,River Valley Med,93000,Clinic,175.85
+69,River Valley Med,99214,Clinic,311.41
+70,River V. Medical,36415,Clinic,185.01
+71,acme health,99214,Lab,225.5
+72,Acme Health,99213,Lab,177.02
+73,acme health,93000,Clinic,204.68
+74,NorthCare,36415,Lab,226.98
+75,River V. Medical,80053,Cardiology,186.44
+76,ACME Health  ,99213,Clinic,206.43
+77,River V. Medical,99215,Clinic,184.53
+78,acme health,99213,Lab,238.27
+79,ACME Health  ,36415,Clinic,136.81
+80,NorthCare,99215,Cardiology,122.98
+81,acme health,80053,Lab,172.7
+82,NorthCare,80053,Clinic,215.64
+83,Acme Health,36415,Lab,79.24
+84,North Care,99213,Cardiology,177.49
+85,acme health,99214,Clinic,190.6
+86,River V. Medical,80053,Lab,177.33
+87,River V. Medical,80053,Lab,257.91
+88,River Valley Med,99214,Cardiology,174.29
+89,River V. Medical,99214,Cardiology,152.77
+90,River Valley Med,80053,Clinic,161.93
+91,NorthCare,99213,Lab,170.47
+92,River V. Medical,99215,Clinic,101.05
+93,Acme Health,99213,Clinic,135.21
+94,River Valley Med,80053,Lab,196.54
+95,River V. Medical,93000,Lab,117.38
+96,River Valley Med,99213,Lab,304.2
+97,River V. Medical,99215,Clinic,219.01
+98,River V. Medical,99215,Clinic,273.62
+99,ACME Health  ,99214,Cardiology,294.16
+100,North Care,99215,Clinic,224.95
+101,North Care,99214,Lab,287.18
+102,River Valley Med,93000,Lab,201.39
+103,North Care,93000,Lab,184.62
+104,River Valley Med,80053,Lab,298.8
+105,NorthCare,99215,Lab,205.15
+106,acme health,80053,Clinic,140.26
+107,River Valley Med,93000,Clinic,211.91
+108,River V. Medical,80053,Lab,302.38
+109,acme health,36415,Clinic,160.68
+110,River V. Medical,80053,Clinic,217.2
+111,River Valley Med,99214,Cardiology,217.93
+112,Acme Health,93000,Cardiology,293.1
+113,North Care,99214,Clinic,319.53
+114,Acme Health,99215,Clinic,238.16
+115,NorthCare,36415,Clinic,237.96
+116,Acme Health,80053,Cardiology,245.05
+117,North Care,80053,Clinic,155.66
+118,NorthCare,36415,Lab,150.52
+119,North Care,99214,Cardiology,241.7
+120,Acme Health,80053,Clinic,162.53
+121,NorthCare,80053,Lab,-6.81
+122,NorthCare,36415,Lab,128.49
+123,North Care,80053,Clinic,190.16
+124,acme health,99215,Clinic,179.02
+125,acme health,99215,Clinic,148.23
+126,NorthCare,99215,Clinic,118.92
+127,ACME Health  ,99215,Cardiology,150.45
+128,ACME Health  ,93000,Cardiology,264.4
+129,North Care,80053,Lab,226.63
+130,NorthCare,80053,Clinic,248.28
+131,River V. Medical,99215,Lab,95.7
+132,ACME Health  ,99214,Clinic,196.81
+133,NorthCare,99213,Lab,157.01
+134,River Valley Med,99214,Lab,209.07
+135,acme health,80053,Cardiology,216.0
+136,ACME Health  ,93000,Cardiology,180.03
+137,River V. Medical,99215,Clinic,194.74
+138,River V. Medical,36415,Clinic,137.23
+139,River V. Medical,99214,Clinic,249.03
+140,Acme Health,99215,Clinic,102.74
+141,River Valley Med,36415,Clinic,238.14
+142,North Care,99214,Cardiology,242.08
+143,NorthCare,80053,Cardiology,181.06
+144,ACME Health  ,99213,Clinic,197.81
+145,Acme Health,99213,Clinic,265.69
+146,North Care,93000,Clinic,132.04
+147,Acme Health,93000,Cardiology,199.77
+148,Acme Health,36415,Cardiology,194.7
+149,acme health,93000,Cardiology,153.55
+150,North Care,99214,Lab,254.68
+151,ACME Health  ,99215,Clinic,243.94
+152,acme health,99213,Cardiology,121.15
+153,acme health,93000,Clinic,128.28
+154,North Care,99213,Clinic,251.96
+155,Acme Health,93000,Clinic,106.5
+156,ACME Health  ,80053,Clinic,233.43
+157,River Valley Med,99214,Lab,197.63
+158,River V. Medical,99214,Lab,172.83
+159,North Care,36415,Clinic,149.62
+160,NorthCare,99213,Lab,394.08
+161,North Care,36415,Clinic,94.65
+162,acme health,93000,Lab,148.32
+163,acme health,93000,Clinic,194.72
+164,Acme Health,99215,Lab,136.81
+165,River Valley Med,93000,Clinic,276.52
+166,River Valley Med,99215,Clinic,253.45
+167,NorthCare,99214,Clinic,170.01
+168,NorthCare,36415,Clinic,197.14
+169,North Care,99214,Clinic,149.11
+170,North Care,99215,Cardiology,177.43
+171,Acme Health,36415,Clinic,233.31
+172,acme health,99215,Lab,181.99
+173,River V. Medical,80053,Clinic,216.35
+174,River V. Medical,99215,Clinic,222.27
+175,North Care,36415,Clinic,139.48
+176,Acme Health,36415,Cardiology,233.97
+177,North Care,99213,Clinic,229.34
+178,Acme Health,99213,Clinic,250.64
+179,North Care,36415,Lab,254.22
+180,ACME Health  ,80053,Clinic,215.03
+181,River V. Medical,99213,Cardiology,151.5
+182,Acme Health,80053,Clinic,175.07
+183,NorthCare,80053,Clinic,257.04
+184,acme health,80053,Clinic,256.79
+185,Acme Health,93000,Lab,229.5
+186,North Care,80053,Clinic,158.73
+187,River V. Medical,80053,Cardiology,254.8
+188,acme health,99215,Clinic,81.27
+189,acme health,80053,Clinic,268.19
+190,River Valley Med,93000,Lab,87.89
+191,NorthCare,80053,Cardiology,286.32
+192,River Valley Med,99215,Lab,229.44
+193,River Valley Med,36415,Cardiology,152.21
+194,acme health,36415,Clinic,196.69
+195,ACME Health  ,99215,Clinic,228.2
+196,North Care,80053,Clinic,199.14
+197,North Care,80053,Clinic,157.21
+198,acme health,36415,Clinic,246.35
+199,ACME Health  ,99213,Cardiology,141.2
+200,River Valley Med,80053,Clinic,197.54
+201,River V. Medical,36415,Cardiology,190.15
+202,River Valley Med,80053,Clinic,241.09
+203,North Care,93000,Cardiology,200.49
+204,River V. Medical,99215,Clinic,269.65
+205,Acme Health,99213,Clinic,159.52
+206,Acme Health,80053,Lab,130.17
+207,North Care,99215,Clinic,133.82
+208,North Care,99213,Cardiology,268.43
+209,North Care,99215,Cardiology,244.22
+210,River Valley Med,93000,Lab,229.22
+211,ACME Health  ,80053,Lab,269.23
+212,NorthCare,80053,Clinic,191.64
+213,North Care,99214,Clinic,282.47
+214,NorthCare,99215,Cardiology,224.34
+215,NorthCare,36415,Cardiology,168.44
+216,acme health,36415,Cardiology,228.16
+217,NorthCare,99214,Lab,173.88
+218,North Care,80053,Lab,231.01
+219,NorthCare,99213,Cardiology,81.98
+220,ACME Health  ,80053,Cardiology,196.81
+221,River V. Medical,36415,Clinic,192.74
+222,River V. Medical,80053,Cardiology,284.17
+223,NorthCare,99214,Lab,242.69
+224,Acme Health,99214,Lab,244.48
+225,NorthCare,93000,Lab,261.93
+226,North Care,99214,Cardiology,283.79
+227,ACME Health  ,93000,Clinic,105.74
+228,North Care,99215,Clinic,211.39
+229,ACME Health  ,99215,Lab,201.47
+230,Acme Health,80053,Cardiology,228.98
+231,North Care,80053,Lab,276.29
+232,North Care,99214,Cardiology,201.21
+233,River Valley Med,99213,Cardiology,209.73
+234,River V. Medical,36415,Clinic,217.78
+235,Acme Health,80053,Cardiology,149.41
+236,acme health,99213,Clinic,188.07
+237,NorthCare,99214,Lab,125.52
+238,River Valley Med,36415,Cardiology,173.37
+239,Acme Health,36415,Clinic,207.94
+240,acme health,36415,Lab,163.0
+241,NorthCare,80053,Clinic,132.58
+242,Acme Health,99215,Clinic,212.98
+243,River Valley Med,93000,Clinic,212.16
+244,NorthCare,99214,Lab,105.43
+245,River Valley Med,80053,Clinic,205.15
+246,ACME Health  ,36415,Clinic,242.5
+247,Acme Health,99213,Lab,266.39
+248,River Valley Med,36415,Lab,223.53
+249,ACME Health  ,99214,Lab,164.93
+250,NorthCare,99215,Clinic,248.02
+251,acme health,93000,Clinic,154.24
+252,acme health,36415,Clinic,240.91
+253,NorthCare,36415,Cardiology,190.72
+254,North Care,93000,Lab,244.91
+255,acme health,99214,Lab,176.4
+256,NorthCare,99215,Cardiology,216.34
+257,acme health,99214,Cardiology,159.91
+258,ACME Health  ,36415,Clinic,120.82
+259,ACME Health  ,99215,Clinic,278.74
+260,River V. Medical,99215,Clinic,233.19
+261,Acme Health,93000,Clinic,225.33
+262,ACME Health  ,99215,Cardiology,164.39
+263,River V. Medical,99214,Lab,214.17
+264,NorthCare,93000,Cardiology,212.12
+265,River V. Medical,93000,Clinic,216.24
+266,ACME Health  ,99215,Clinic,160.97
+267,ACME Health  ,36415,Lab,208.59
+268,acme health,93000,Lab,265.79
+269,ACME Health  ,99213,Clinic,95.6
+270,NorthCare,93000,Clinic,185.42
+271,North Care,36415,Lab,107.72
+272,Acme Health,36415,Lab,205.17
+273,acme health,99215,Clinic,192.53
+274,ACME Health  ,93000,Cardiology,218.56
+275,NorthCare,99215,Cardiology,306.51
+276,River V. Medical,99215,Lab,199.09
+277,ACME Health  ,93000,Clinic,221.72
+278,Acme Health,99215,Clinic,263.24
+279,River Valley Med,99213,Clinic,172.93
+280,NorthCare,36415,Clinic,245.57
+281,ACME Health  ,99215,Clinic,300.66
+282,River Valley Med,80053,Cardiology,188.18
+283,ACME Health  ,36415,Cardiology,193.63
+284,Acme Health,36415,Cardiology,216.08
+285,River Valley Med,99213,Clinic,237.72
+286,River Valley Med,36415,Clinic,201.42
+287,ACME Health  ,99214,Clinic,233.34
+288,River V. Medical,93000,Cardiology,220.35
+289,River V. Medical,99214,Lab,305.08
+290,North Care,99214,Clinic,331.63
+291,River Valley Med,99213,Clinic,201.08
+292,ACME Health  ,80053,Lab,210.02
+293,River V. Medical,93000,Lab,277.49
+294,River V. Medical,99214,Clinic,208.87
+295,Acme Health,93000,Lab,246.12
+296,acme health,99215,Lab,179.72
+297,River V. Medical,80053,Clinic,142.31
+298,Acme Health,36415,Cardiology,171.7
+299,Acme Health,93000,Lab,216.05
+300,ACME Health  ,36415,Clinic,189.99
+301,River Valley Med,80053,Clinic,184.96
+302,ACME Health  ,99213,Lab,231.94
+303,North Care,99214,Clinic,195.48
+304,ACME Health  ,99213,Clinic,219.65
+305,North Care,93000,Cardiology,237.82
+306,ACME Health  ,93000,Clinic,176.87
+307,NorthCare,99215,Lab,231.34
+308,River V. Medical,80053,Lab,204.76
+309,River V. Medical,99214,Lab,180.47
+310,River Valley Med,80053,Cardiology,194.94
+311,River V. Medical,99215,Clinic,162.12
+312,Acme Health,99213,Lab,236.42
+313,River V. Medical,99215,Lab,240.52
+314,NorthCare,99215,Cardiology,185.72
+315,NorthCare,99213,Lab,201.36
+316,Acme Health,99213,Lab,97.29
+317,River V. Medical,80053,Lab,214.28
+318,Acme Health,93000,Cardiology,277.66
+319,River Valley Med,93000,Cardiology,176.65
+320,NorthCare,80053,Lab,188.33
+321,ACME Health  ,99214,Cardiology,181.55
+322,ACME Health  ,99214,Clinic,176.12
+323,River V. Medical,80053,Cardiology,262.92
+324,NorthCare,99215,Cardiology,266.07
+325,River V. Medical,36415,Clinic,262.17
+326,acme health,99214,Clinic,203.89
+327,NorthCare,80053,Clinic,114.86
+328,River Valley Med,93000,Cardiology,267.43
+329,River V. Medical,93000,Lab,179.35
+330,ACME Health  ,93000,Lab,168.12
+331,ACME Health  ,99215,Clinic,154.32
+332,ACME Health  ,93000,Clinic,233.6
+333,NorthCare,99215,Lab,165.81
+334,Acme Health,36415,Clinic,230.5
+335,ACME Health  ,99213,Clinic,185.69
+336,Acme Health,99213,Clinic,266.71
+337,River V. Medical,99213,Clinic,192.82
+338,North Care,93000,Clinic,189.61
+339,acme health,80053,Clinic,149.24
+340,acme health,36415,Clinic,152.47
+341,North Care,80053,Lab,177.27
+342,ACME Health  ,99213,Lab,238.53
+343,North Care,99213,Lab,215.38
+344,River Valley Med,80053,Clinic,129.41
+345,North Care,93000,Lab,280.61
+346,River Valley Med,99215,Clinic,237.42
+347,North Care,99215,Clinic,139.81
+348,River Valley Med,36415,Clinic,194.83
+349,acme health,99214,Clinic,227.88
+350,River Valley Med,99215,Lab,246.05
+351,River V. Medical,99215,Cardiology,194.25
+352,River V. Medical,36415,Clinic,211.62
+353,North Care,36415,Lab,173.45
+354,NorthCare,99215,Cardiology,214.54
+355,ACME Health  ,80053,Clinic,187.4
+356,North Care,36415,Clinic,142.08
+357,ACME Health  ,80053,Lab,147.71
+358,River V. Medical,36415,Clinic,197.86
+359,Acme Health,99214,Lab,104.02
+360,Acme Health,99215,Lab,157.0
+361,acme health,93000,Lab,108.62
+362,ACME Health  ,93000,Clinic,231.56
+363,Acme Health,80053,Cardiology,238.9
+364,River V. Medical,99215,Lab,158.03
+365,River V. Medical,99213,Lab,208.0
+366,North Care,99214,Clinic,207.52
+367,NorthCare,80053,Lab,189.8
+368,River V. Medical,93000,Clinic,245.99
+369,NorthCare,99215,Cardiology,205.87
+370,NorthCare,80053,Lab,242.94
+371,River Valley Med,36415,Lab,204.5
+372,River V. Medical,99215,Clinic,197.33
+373,River Valley Med,36415,Cardiology,130.8
+374,River Valley Med,99213,Clinic,190.16
+375,NorthCare,93000,Lab,180.29
+376,River V. Medical,99213,Lab,226.54
+377,NorthCare,80053,Clinic,231.75
+378,River Valley Med,80053,Lab,281.15
+379,River V. Medical,80053,Lab,233.6
+380,North Care,93000,Lab,183.3
+381,acme health,36415,Clinic,261.67
+382,River Valley Med,93000,Clinic,180.14
+383,North Care,80053,Clinic,142.35
+384,River V. Medical,80053,Clinic,207.19
+385,River V. Medical,99213,Clinic,178.47
+386,acme health,99213,Cardiology,203.91
+387,acme health,80053,Clinic,229.1
+388,ACME Health  ,99215,Lab,200.45
+389,River Valley Med,36415,Clinic,207.27
+390,North Care,99215,Clinic,193.21
+391,ACME Health  ,93000,Clinic,178.71
+392,Acme Health,80053,Clinic,166.24
+393,acme health,93000,Clinic,224.26
+394,acme health,36415,Lab,163.97
+395,North Care,99213,Clinic,259.43
+396,North Care,99214,Clinic,190.96
+397,River V. Medical,36415,Clinic,132.55
+398,North Care,36415,Clinic,161.15
+399,Acme Health,80053,Clinic,68.16
+400,ACME Health  ,99214,Cardiology,270.38
+401,ACME Health  ,99214,Clinic,124.19
+402,acme health,80053,Clinic,206.06
+403,ACME Health  ,36415,Lab,196.81
+404,ACME Health  ,36415,Lab,239.37
+405,River Valley Med,99213,Clinic,224.03
+406,NorthCare,36415,Clinic,199.77
+407,North Care,99213,Clinic,189.12
+408,River Valley Med,80053,Cardiology,148.8
+409,NorthCare,36415,Clinic,254.17
+410,acme health,93000,Cardiology,211.24
+411,NorthCare,80053,Clinic,210.29
+412,ACME Health  ,93000,Lab,183.9
+413,ACME Health  ,93000,Clinic,233.21
+414,Acme Health,36415,Cardiology,202.34
+415,North Care,80053,Clinic,176.94
+416,ACME Health  ,93000,Clinic,112.75
+417,NorthCare,36415,Clinic,152.47
+418,North Care,99214,Cardiology,125.49
+419,North Care,80053,Cardiology,178.82
+420,North Care,80053,Lab,184.0
+421,NorthCare,80053,Clinic,162.84
+422,ACME Health  ,99215,Lab,205.03
+423,Acme Health,99214,Lab,218.9
+424,NorthCare,99214,Cardiology,208.38
+425,North Care,36415,Cardiology,245.34
+426,North Care,36415,Clinic,203.71
+427,NorthCare,36415,Clinic,114.75
+428,River Valley Med,99214,Clinic,184.2
+429,ACME Health  ,93000,Lab,196.61
+430,NorthCare,80053,Clinic,240.05
+431,acme health,93000,Clinic,274.37
+432,acme health,99214,Clinic,205.37
+433,acme health,99213,Lab,218.65
+434,acme health,93000,Clinic,226.72
+435,River Valley Med,80053,Lab,260.35
+436,River Valley Med,36415,Lab,176.78
+437,NorthCare,36415,Clinic,160.15
+438,North Care,36415,Lab,200.86
+439,North Care,99215,Clinic,205.81
+440,North Care,99213,Lab,259.33
+441,River Valley Med,80053,Clinic,142.77
+442,North Care,99213,Cardiology,189.39
+443,River V. Medical,93000,Clinic,260.72
+444,ACME Health  ,93000,Cardiology,302.81
+445,Acme Health,80053,Clinic,127.0
+446,acme health,80053,Cardiology,283.83
+447,River Valley Med,36415,Clinic,211.9
+448,River V. Medical,36415,Lab,237.47
+449,North Care,93000,Clinic,128.32
+450,Acme Health,99213,Lab,259.76
+451,River V. Medical,99215,Clinic,221.02
+452,North Care,93000,Clinic,290.04
+453,River Valley Med,36415,Lab,159.68
+454,Acme Health,99213,Clinic,173.22
+455,acme health,99215,Clinic,167.44
+456,ACME Health  ,80053,Cardiology,59.44
+457,River V. Medical,99214,Lab,249.69
+458,Acme Health,93000,Cardiology,212.2
+459,acme health,99214,Clinic,175.98
+460,acme health,99215,Clinic,184.01
+461,River Valley Med,99214,Lab,151.05
+462,acme health,80053,Lab,191.26
+463,North Care,99213,Clinic,153.18
+464,River Valley Med,99213,Clinic,105.37
+465,ACME Health  ,99215,Lab,135.8
+466,Acme Health,99213,Cardiology,126.48
+467,Acme Health,99215,Cardiology,243.47
+468,acme health,80053,Clinic,215.94
+469,Acme Health,99214,Cardiology,143.22
+470,River V. Medical,93000,Cardiology,255.76
+471,NorthCare,99213,Clinic,205.84
+472,NorthCare,99213,Lab,173.7
+473,acme health,99215,Clinic,191.42
+474,Acme Health,99213,Cardiology,253.41
+475,ACME Health  ,99213,Clinic,182.23
+476,NorthCare,36415,Clinic,184.58
+477,NorthCare,93000,Clinic,189.72
+478,River Valley Med,99214,Clinic,227.88
+479,ACME Health  ,99215,Clinic,246.15
+480,NorthCare,99214,Clinic,246.05
+481,Acme Health,93000,Lab,197.1
+482,NorthCare,99213,Lab,165.58
+483,Acme Health,80053,Lab,154.89
+484,acme health,36415,Lab,233.39
+485,NorthCare,99214,Clinic,252.74
+486,North Care,36415,Clinic,262.86
+487,ACME Health  ,93000,Clinic,222.55
+488,River Valley Med,36415,Clinic,207.11
+489,acme health,99214,Clinic,132.85
+490,acme health,36415,Cardiology,207.56
+491,North Care,99214,Lab,192.16
+492,River Valley Med,36415,Lab,163.27
+493,NorthCare,99214,Clinic,204.12
+494,acme health,36415,Clinic,59.18
+495,Acme Health,99213,Clinic,239.49
+496,River V. Medical,99215,Lab,199.26
+497,Acme Health,99214,Clinic,228.61
+498,ACME Health  ,99215,Lab,239.62
+499,North Care,99214,Lab,169.09
+500,Acme Health,93000,Cardiology,229.47

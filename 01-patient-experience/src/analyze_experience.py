@@ -1,0 +1,15 @@
+
+import pandas as pd, matplotlib.pyplot as plt
+df = pd.read_csv("01-patient-experience/data/patient_experience.csv", parse_dates=["date"])
+means = df.groupby("department")[["Communication","Respect","Cleanliness","Overall"]].mean().reindex(["ED","Inpatient","Outpatient","Surgery"])
+ax = means.plot(kind="bar", figsize=(10,6))
+ax.set_title("Patient Experience — Mean Scores by Department (1–5)")
+ax.set_ylabel("Mean score")
+ax.legend(loc="center left", bbox_to_anchor=(1, 0.5), frameon=False)
+plt.tight_layout(rect=(0,0,0.85,1))
+plt.savefig("01-patient-experience/outputs/fig_likert_by_department.png", dpi=150); plt.close()
+df["date"]=pd.to_datetime(df["date"])
+trend = df.set_index("date").groupby(pd.Grouper(freq="D"))["Overall"].mean().rolling(7, min_periods=3).mean()
+trend.plot(figsize=(10,4.5)); plt.title("Overall Satisfaction — 7-day Rolling Mean")
+plt.ylabel("Score (1–5)"); plt.xlabel("Date"); plt.tight_layout()
+plt.savefig("01-patient-experience/outputs/fig_overall_trend.png", dpi=150); plt.close()
