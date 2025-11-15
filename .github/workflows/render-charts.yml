@@ -1,0 +1,22 @@
+name: Render charts
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: '3.11' }
+      - run: pip install pandas matplotlib
+      - name: Re-generate figures
+        run: |
+          python 01-patient-experience/src/analyze_experience.py
+          python 02-readmissions-risk/src/analyze_readmissions.py
+          cp 01-patient-experience/outputs/fig_likert_by_department.png docs/fig_1.png
+          cp 02-readmissions-risk/outputs/fig_readmit_rate_by_decile.png docs/fig_2.png
+      - name: Commit updated images
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "Render charts: refresh visuals"
